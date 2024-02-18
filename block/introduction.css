@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
 }
 
 .introduction__box{
@@ -11,7 +11,7 @@
     max-height: 100%;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -20,7 +20,7 @@
     font-weight: 900;
     line-height: 58px;
     font-size: 50px;
-    
+
 }
 
 .introduction__box-cuote{
@@ -34,8 +34,8 @@
 }
 
 .introduction__box-cuote_cuote{
-    position: relative; 
-    font-size: 1em;
+  font-size: 1em;
+  position: relative;
 }
 
 .introduction__box-cuote_author{
@@ -65,9 +65,9 @@
 
     }
     .introduction__box-cuote_cuote{
-        position: relative; 
+        position: relative;
     }
-    
+
     .introduction__box-cuote_author{
         position: absolute;
         bottom: 0;
