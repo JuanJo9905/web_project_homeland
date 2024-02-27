@@ -3,10 +3,7 @@
   src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
-@font-face {
-  font-family: 'Sans serif';
-  src: url(../fonts/NotoSerif-Italic-VariableFont_wdth\,wght.ttf);
-}
+
 .header{
     display: flex;
     flex-direction: column;
