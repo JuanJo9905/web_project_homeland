@@ -145,10 +145,6 @@
     .places__card-top_artist-name{
         color: #ffffff;
     }
-    .places__card-middle_image{
-        width: 320px;
-        height: 320px;
-    }
     .places__card-middle_paragraph{
         font-family: "Inter","Sans serif";
         font-size: 16px;
