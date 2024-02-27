@@ -33,14 +33,14 @@
     height: 34.32%;
 }
 
-.footer__image-invitation_title{
+.footer__image-invitation-title{
     font-family: "Inter","Sans serif";
     font-size: 72px;
     font-weight: 900;
     margin: 0px;
 
 }
-.footer__image-invitation_info{
+.footer__image-invitation-info{
     padding-top: 5%;
     list-style: none;
     padding-left: 0;
@@ -48,7 +48,7 @@
     font-size: 18px;
 }
 
-.footer__image-invitation_button{
+.footer__image-invitation-button{
     background-color: #0278FE;
     border: none;
     color: #ffffff;
@@ -61,7 +61,7 @@
 .footer__image-image:hover{
     filter: brightness(80%);
 }
-.footer__image-invitation_button:hover{
+.footer__image-invitation-button:hover{
     filter: brightness(80%);
     cursor: pointer;
 }
@@ -90,10 +90,10 @@
         height: 80%;
     }
 
-    .footer__image-invitation_title{
+    .footer__image-invitation-title{
         font-size: 32px;
     }
-    .footer__image-invitation_info{
+    .footer__image-invitation-info{
         font-size: 16px;
     }
 
