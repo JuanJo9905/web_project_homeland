@@ -23,7 +23,7 @@
 .places__card-middle{
     display: flex;
 }
-.places__card-top_title{
+.places__card-top-title{
     width: 55%;
     height: 152px;
     font-family: "Inter","Sans serif";
@@ -35,7 +35,7 @@
     hyphens: auto;
 }
 
-.places__card-top_artist{
+.places__card-top-artist{
     color: #AAAAAA;
     font-size: 18px;
     line-height: 22px;
@@ -45,7 +45,7 @@
     margin-left: -7%;
 }
 
-.places__card-top_artist-name{
+.places__card-top-artist-name{
     color: #ffffff;
 }
 
@@ -90,13 +90,13 @@
 
 @media screen and (max-width: 768px) {
 
-    .places__card-top_title{
+    .places__card-top-title{
         font-family: "Inter","Sans serif";
         font-size: 42px;
         line-height: 46px;
     }
 
-    .places__card-top_artist{
+    .places__card-top-artist{
         color: #AAAAAA;
         list-style: none;
         padding-left: 0;
@@ -135,19 +135,19 @@
       max-width: 320px;
       max-height: 320px;
   }
-    .places__card-top_title{
+    .places__card-top-title{
         font-family: "Inter","Sans serif";
         font-weight: 900;
         font-size: 32px;
         line-height: 35px;
         height: auto;
     }
-    .places__card-top_artist{
+    .places__card-top-artist{
         font-size: 18px;
         line-height: 400;
         line-height: 22px;
     }
-    .places__card-top_artist-name{
+    .places__card-top-artist-name{
         color: #ffffff;
     }
     .places__card-middle_paragraph{
