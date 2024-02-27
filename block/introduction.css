@@ -38,12 +38,12 @@
     font-size: 24px;
 }
 
-.introduction__box-cuote_cuote{
+.introduction__box-cuote-cuote{
   font-size: 1em;
   position: relative;
 }
 
-.introduction__box-cuote_author{
+.introduction__box-cuote-author{
     position: absolute;
     bottom: 0;
     right: 0;
@@ -65,7 +65,7 @@
     .introduction__box-cuote{
         font-size: 1em;
     }
-    .introduction__box-cuote_cuote{
+    .introduction__box-cuote-cuote{
         position: relative;
     }
 
