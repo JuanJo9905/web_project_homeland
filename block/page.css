@@ -1,19 +1,14 @@
-@font-face {
-  font-family: 'Inter';
-  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
-}
-
 .page {
-    background-color: #2A2C2F;
-    min-width: 100%;
-    margin: 0 auto;
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-  }
-  body {
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
-    margin: 0;
-  }
+  background-color: #2a2c2f;
+  min-width: 100%;
+  margin: 0 auto;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
+body {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}

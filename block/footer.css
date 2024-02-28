@@ -1,101 +1,90 @@
-@font-face {
-  font-family: 'Inter';
-  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+.footer {
+  align-items: center;
+  color: #ffffff;
+  display: flex;
+  margin-top: 70px;
+  text-align: center;
+  flex-direction: column;
 }
 
-.footer{
-    align-items: center;
-    color: #ffffff;
-    display: flex;
-    margin-top: 70px;
-    text-align: center;
-    flex-direction: column;
-}
-
-.footer__image{
-    width: 92.5%;
-    height: 70%;
-    position: relative;
+.footer__image {
+  width: 92.5%;
+  height: 70%;
+  position: relative;
 
 }
 
-.footer__image-image{
+.footer__image-image {
+  width: 100%;
+  height: 100%;
+}
+
+.footer__image-image:hover {
+  filter: brightness(80%);
+}
+
+.footer__image-invitation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.footer__image-invitation-title {
+  font-family: "Inter", "Sans serif";
+  font-size: 72px;
+  font-weight: 900;
+  margin: 0px;
+}
+.footer__image-invitation-info {
+  padding-top: 5%;
+  list-style: none;
+  padding-left: 0;
+  font-family: "Inter", "Sans serif";
+  font-size: 18px;
+}
+
+.footer__image-invitation-button {
+  background-color: #0278fe;
+  border: none;
+  color: #ffffff;
+  padding: 13px 20px 13px 20px;
+  border-radius: 4px;
+  font-family: "Inter", "Sans serif";
+  font-size: 18px;
+
+}
+
+.footer__image-invitation-button:hover {
+  filter: brightness(80%);
+  cursor: pointer;
+}
+
+.footer__copyright {
+  margin-top: 5%;
+  font-family: "Inter", "Sans serif";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768) {
+  .footer__image {
     width: 100%;
-    height: 100%;
+    height: 70%;
+  }
 }
 
-.footer__image-invitation{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 50.4%;
-    height: 34.32%;
+@media screen and (max-width: 320px) {
+  .footer__image-invitation {
+    width: 90%;
+    height: 80%;
+  }
+
+  .footer__image-invitation-title {
+    font-size: 32px;
+  }
+  .footer__image-invitation-info {
+    font-size: 16px;
+  }
 }
-
-.footer__image-invitation-title{
-    font-family: "Inter","Sans serif";
-    font-size: 72px;
-    font-weight: 900;
-    margin: 0px;
-
-}
-.footer__image-invitation-info{
-    padding-top: 5%;
-    list-style: none;
-    padding-left: 0;
-    font-family: "Inter","Sans serif";
-    font-size: 18px;
-}
-
-.footer__image-invitation-button{
-    background-color: #0278FE;
-    border: none;
-    color: #ffffff;
-    padding: 13px 20px 13px 20px;
-    border-radius: 4px;
-    font-family: "Inter","Sans serif";
-    font-size: 18px;
-}
-
-.footer__image-image:hover{
-    filter: brightness(80%);
-}
-.footer__image-invitation-button:hover{
-    filter: brightness(80%);
-    cursor: pointer;
-}
-
-.footer__copyright{
-    margin-top: 5%;
-    font-family: "Inter","Sans serif";
-    font-size: 14px;
-    font-weight: 400;
-}
-
-
-@media screen and (max-width:768) {
-
-    .footer__image{
-        width: 100%;
-        height: 70%;
-    }
-
-}
-
-@media screen and (max-width:320px) {
-
-    .footer__image-invitation{
-        width: 90%;
-        height: 80%;
-    }
-
-    .footer__image-invitation-title{
-        font-size: 32px;
-    }
-    .footer__image-invitation-info{
-        font-size: 16px;
-    }
-
-}
-

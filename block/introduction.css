@@ -1,87 +1,78 @@
-@font-face {
-  font-family: 'Inter';
-  src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+.introduction {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.introduction{
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+.introduction__box {
+  max-width: 984px;
+  max-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.introduction__box{
-    max-width: 984px;
-    max-height: 100%;
-    display: flex;
-    flex-direction: column;
-
+.introduction__box-title {
+  font-family: "Inter", "Sans serif";
+  font-weight: 900;
+  line-height: 58px;
+  font-size: 50px;
 }
 
-
-.introduction__box-title{
-    font-family: "Inter","Sans serif";
-    font-weight: 900;
-    line-height: 58px;
-    font-size: 50px;
-
+.introduction__box-cuote {
+  position: relative;
+  margin-left: 0;
+  max-width: 722px;
+  max-height: 136px;
+  font-family: "Inter", "Sans serif";
+  font-weight: 400;
+  font-size: 24px;
 }
 
-.introduction__box-cuote{
-    position: relative;
-    margin-left: 0;
-    max-width: 722px;
-    max-height: 136px;
-    font-family: "Inter","Sans serif";
-    font-weight: 400;
-    font-size: 24px;
-}
-
-.introduction__box-cuote-cuote{
+.introduction__box-cuote-cuote {
   font-size: 1em;
   position: relative;
 }
 
-.introduction__box-cuote-author{
+.introduction__box-cuote-author {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 1em;
+}
+
+.introduction__box-paragraph {
+  max-height: 182px;
+  max-width: 720px;
+  font-family: "Inter", "Sans serif";
+  font-weight: 400;
+  font-size: 16px;
+}
+@media screen and (max-width: 768px) {
+  .introduction__box {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .introduction__box-cuote {
+    font-size: 1em;
+  }
+  .introduction__box-cuote-cuote {
+    position: relative;
+  }
+
+  .introduction__box-cuote_author {
     position: absolute;
     bottom: 0;
     right: 0;
-    font-size: 1em;
-}
-
-.introduction__box-paragraph{
-    max-height: 182px;
-    max-width: 720px;
-    font-family: "Inter","Sans serif";
-    font-weight: 400;
-    font-size: 16px;
-}
-@media screen and (max-width: 768px) {
-    .introduction__box{
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .introduction__box-cuote{
-        font-size: 1em;
-    }
-    .introduction__box-cuote-cuote{
-        position: relative;
-    }
-
-    .introduction__box-cuote_author{
-        position: absolute;
-        bottom: 0;
-        right: 0;
-    }
-    .introduction__box-paragraph{
-        max-height: 100%;
-        max-width: 100%;
-    }
+  }
+  .introduction__box-paragraph {
+    max-height: 100%;
+    max-width: 100%;
+  }
 }
 @media screen and (max-width: 320px) {
-    .introduction__box-title{
-        line-height: 35px;
-        font-size: 32px;
-    }
+  .introduction__box-title {
+    line-height: 35px;
+    font-size: 32px;
+  }
 }
